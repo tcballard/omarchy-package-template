@@ -1,0 +1,21 @@
+# Local sample payload. Replace only after inspecting the real upstream application.
+pkgname=omarchy-package-starter
+pkgver=0.1.0
+pkgrel=1
+pkgdesc='Local packaging starter for Omarchy'
+arch=('any')
+url='https://github.com/tcballard/omarchy-package-template'
+license=('MIT')
+depends=('bash')
+source=('payload.sh' 'LICENSE')
+sha256sums=('ea18e663963508b035068081a08d737c06b21d4df19187ace91b9db149bcd2b7' '277db3cbc16e79e9586c768e650c403096ef3b25c355d53a3c7ff13eea1fc2c0')
+
+check() {
+  bash -n "$srcdir/payload.sh"
+  [[ $(bash "$srcdir/payload.sh" --version) == "$pkgname $pkgver" ]]
+}
+
+package() {
+  install -Dm755 "$srcdir/payload.sh" "$pkgdir/usr/bin/$pkgname"
+  install -Dm644 "$srcdir/LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}

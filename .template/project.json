@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "0.1.0",
+  "kind": "package",
+  "owner": "tcballard",
+  "repo": "omarchy-package-template",
+  "slug": "omarchy-package-starter",
+  "name": "Omarchy Package Starter",
+  "author": "Tom Ballard",
+  "id": "io.github.tcballard.package_starter",
+  "description": "A working local Arch recipe to adapt for the application you want to package.",
+  "year": "2026",
+  "inspiration": "",
+  "initialized": false
+}

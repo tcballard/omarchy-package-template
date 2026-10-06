@@ -1,0 +1,21 @@
+# Local sample payload. Replace only after inspecting the real upstream application.
+pkgname=@@SLUG@@
+pkgver=0.1.0
+pkgrel=1
+pkgdesc='Local packaging starter for Omarchy'
+arch=('any')
+url='@@REPO_URL@@'
+license=('MIT')
+depends=('bash')
+source=('payload.sh' 'LICENSE')
+sha256sums=('SOURCE_SHA256' 'LICENSE_SHA256')
+
+check() {
+  bash -n "$srcdir/payload.sh"
+  [[ $(bash "$srcdir/payload.sh" --version) == "$pkgname $pkgver" ]]
+}
+
+package() {
+  install -Dm755 "$srcdir/payload.sh" "$pkgdir/usr/bin/$pkgname"
+  install -Dm644 "$srcdir/LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}

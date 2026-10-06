@@ -1,0 +1,14 @@
+{
+  "AGENTS.md": "4f96b4099fb4a6d8aeb2751ec357f6b4fc349da212b5efd93cbf9eae68720a33",
+  "ARCHITECTURE.md": "e680b0ecde21fcf2fb1f744bf7b31012d3ce44b4e16e1763fa8e839c6cfab6a0",
+  "CREDITS.md": "d0cff0043082bbd2b5bb9beb0e56e4dc2ae6479931d223bca340fd0af379f8c1",
+  "docs/DEVELOPMENT.md": "f8d0c9c0f358af701f943a07a2ddac9b1dd2087af1117789b9cb3038a6de16b7",
+  "LICENSE": "277db3cbc16e79e9586c768e650c403096ef3b25c355d53a3c7ff13eea1fc2c0",
+  "pkgbuilds/omarchy-package-starter/.omarchy/package.json": "5a1f7783227b40fc074b2be24c1e10c6182bbcfa95708b313c03c78ba87bb4d5",
+  "pkgbuilds/omarchy-package-starter/LICENSE": "277db3cbc16e79e9586c768e650c403096ef3b25c355d53a3c7ff13eea1fc2c0",
+  "pkgbuilds/omarchy-package-starter/payload.sh": "ea18e663963508b035068081a08d737c06b21d4df19187ace91b9db149bcd2b7",
+  "pkgbuilds/omarchy-package-starter/PKGBUILD": "c514e2ec64ac0cd163956df14c38647f8d024337de1c66cc3a7524b7b3b11c54",
+  "README.md": "ca6303234d04eacdd24fbe76d321ab9b5fb0afffe2e607e7690285f714f5f363",
+  "tests/package.test.mjs": "336fc2240becf1ba156743e7ada44e180d67ea6c401f1a9947c4d1478a22cd6e",
+  "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67"
+}

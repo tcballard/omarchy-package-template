@@ -1,10 +1,10 @@
-<h1 align="center">Omarchy Package Starter</h1>
+<h1 align="center">@@NAME_HTML@@</h1>
 
-<p align="center">A working local Arch recipe to adapt for the application you want to package.</p>
+<p align="center">@@DESCRIPTION_HTML@@</p>
 
 Development starter for Omarchy projects. Initialize it once, then replace the example with your product.
 
-Original starter; no external product inspiration has been declared. Add prominent credit here when adapting an existing project.
+@@INSPIRATION_NOTE@@
 
 **Start here:** [Create and initialize your repository](docs/SETUP.md).
 
